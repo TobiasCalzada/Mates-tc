@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/bg.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menuContainer{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menuContainer .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menuContainer .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menuContainer .navbar ul li a:hover{
+    color: #ce967e;
+}
+
+#menu{
+    display: none;
+}
+
+.menuIcono{
+    width: 25px;
+}
+
+.menuContainer label{
+    cursor: pointer;
+    display: none;
+}
+
+.headerContentContainer{
+    text-align: center;
+}
+
+.headerContentContainer h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.headerContentContainer h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.headerContentContainer p{
+    font-size: 16px;
+    color:#c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce9678;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn1:hover{
+    background-color: #ce9678;
+}
+
+.coffe{
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.coffeContentContainer{
+    text-align: center;
+}
+
+.coffeContentContainer h2{
+    font-size:55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txtp{
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+
+}
+
+.coffeGroup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.coffe1{
+    padding: 0 25px;
+}
+
+.coffe1 img{
+    width: 200px;
+}
+
+.coffeImg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+}
